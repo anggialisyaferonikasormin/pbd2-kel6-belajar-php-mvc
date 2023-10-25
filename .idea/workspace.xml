@@ -4,44 +4,160 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="919ef687-fb33-4bcd-a40f-345723a7d8d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/App/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/App/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/Controller/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/Hello.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/Middleware/AuthMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/Middleware/Middleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/Home/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/register.php" afterDir="false" />
+    <list default="true" id="473d0aa3-d59d-43da-b604-834c17527b1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/architecture.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-login-management/app/Config/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-login-management/app/Domain/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-login-management/app/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-login-management/app/View/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-login-management/app/View/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-login-management/app/View/template.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-login-management/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-login-management/test/App/ViewTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-login-management/test/Config/DatabaseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-login-management/test/Repository/UserRepositoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b00273b-8b45-43ce-b519-ee066d04bb4f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b00273b-8b45-43ce-b519-ee066d04bb4f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b00273b-8b45-43ce-b519-ee066d04bb4f/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b00273b-8b45-43ce-b519-ee066d04bb4f/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14/storage_v2/_src_/schema/php_login_management.wCJyyg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14/storage_v2/_src_/schema/php_login_management_test.sZKmPg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/App/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/App/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/Controller/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/Controller/ProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/Hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/Middleware/AuthMiddleware.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/Middleware/Middleware.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/Home/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/test/RegexTest.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="ComposerSettings" notifyAboutMissingVendor="false" requirePlatformReqs="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/php-login-management/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/composer" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/composer" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/doctrine/deprecations" />
+    </include_path>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
-  <component name="ProjectId" id="2XDD7FXfFFrMH80uJBrEcf0N5Sd" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2XFo9haAleT4NRprkBo8HKD4PbW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -60,22 +176,48 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="database.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/database.sql" />
-      <script-mode>FILE</script-mode>
+  <component name="RunManager" selected="PHPUnit.UserRepositoryTest">
+    <configuration name="DatabaseTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ProgrammerZamanNow\Belajar\PHP\MVC\Config\DatabaseTest" file="$PROJECT_DIR$/php-login-management/test/Config/DatabaseTest.php" scope="Class" />
       <method v="2" />
     </configuration>
+    <configuration name="UserRepositoryTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ProgrammerZamanNow\Belajar\PHP\MVC\UserRepository\UserRepositoryTest" file="$PROJECT_DIR$/php-login-management/test/Repository/UserRepositoryTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRepositoryTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ProgrammerZamanNow\Belajar\PHP\MVC\Repository\UserRepositoryTest" file="$PROJECT_DIR$/php-login-management/test/Repository/UserRepositoryTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserRepositoryTest.testSaveSuccess" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ProgrammerZamanNow\Belajar\PHP\MVC\Repository\UserRepositoryTest" file="$PROJECT_DIR$/php-login-management/test/Repository/UserRepositoryTest.php" method="testSaveSuccess" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ViewTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ProgrammerZamanNow\Belajar\PHP\MVC\App\ViewTest" file="$PROJECT_DIR$/php-login-management/test/App/ViewTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.UserRepositoryTest" />
+        <item itemvalue="PHPUnit.UserRepositoryTest.testSaveSuccess" />
+        <item itemvalue="PHPUnit.UserRepositoryTest (1)" />
+        <item itemvalue="PHPUnit.ViewTest" />
+        <item itemvalue="PHPUnit.DatabaseTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="919ef687-fb33-4bcd-a40f-345723a7d8d1" name="Changes" comment="" />
-      <created>1698154587810</created>
+      <changelist id="473d0aa3-d59d-43da-b604-834c17527b1f" name="Changes" comment="" />
+      <created>1698234041704</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698154587810</updated>
-      <workItem from="1698154588954" duration="3557000" />
+      <updated>1698234041704</updated>
+      <workItem from="1698234044698" duration="475000" />
+      <workItem from="1698234947496" duration="93000" />
+      <workItem from="1698235067404" duration="14016000" />
     </task>
     <servers />
   </component>

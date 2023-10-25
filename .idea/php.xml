@@ -10,9 +10,92 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/composer" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/belajar-php-mvc-master/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/composer" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/php-login-management/vendor/doctrine/deprecations" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/php-login-management/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
