@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="473d0aa3-d59d-43da-b604-834c17527b1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/54d46746-38b0-4008-a82e-027c527a50cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/54d46746-38b0-4008-a82e-027c527a50cf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d/storage_v2/_src_/schema/php_login_management.wCJyyg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d/storage_v2/_src_/schema/php_login_management_test.sZKmPg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php-login-management/app/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/php-login-management/app/Repository/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php-login-management/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/php-login-management/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php-login-management/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/php-login-management/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php-login-management/test/Repository/UserRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/php-login-management/test/Repository/UserRepositoryTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +181,7 @@
       <workItem from="1698234044698" duration="475000" />
       <workItem from="1698234947496" duration="93000" />
       <workItem from="1698235067404" duration="14289000" />
-      <workItem from="1698312278770" duration="1012000" />
+      <workItem from="1698312278770" duration="3087000" />
     </task>
     <servers />
   </component>

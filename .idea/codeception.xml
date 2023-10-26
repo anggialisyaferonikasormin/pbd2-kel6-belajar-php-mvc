@@ -15,6 +15,9 @@
         <Configuration>
           <option name="path" value="$PROJECT_DIR$/php-login-management/tests" />
         </Configuration>
+        <Configuration>
+          <option name="path" value="$PROJECT_DIR$/php-login-management/tests" />
+        </Configuration>
       </list>
     </option>
   </component>

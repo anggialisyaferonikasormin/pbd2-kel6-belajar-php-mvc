@@ -2,13 +2,14 @@
 
 namespace ProgrammerZamanNow\Belajar\PHP\MVC\Repository;
 
+use PDO;
 use ProgrammerZamanNow\Belajar\PHP\MVC\Domain\User;
 
 class UserRepository
 {
-    private \PDO $connection;
+    private PDO $connection;
 
-    public function __construct(\PDO $connection)
+    public function __construct(PDO $connection)
     {
         $this->connection= $connection;
     }
@@ -37,7 +38,8 @@ class UserRepository
                 return null;
             }
 
-        } finally {
+        }finally {
+
 
         }
     }
