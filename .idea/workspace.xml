@@ -5,55 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="473d0aa3-d59d-43da-b604-834c17527b1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/architecture.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-login-management/app/Config/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-login-management/app/Domain/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-login-management/app/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-login-management/app/View/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-login-management/app/View/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-login-management/app/View/template.php.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-login-management/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-login-management/test/App/ViewTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-login-management/test/Config/DatabaseTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-login-management/test/Repository/UserRepositoryTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b00273b-8b45-43ce-b519-ee066d04bb4f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b00273b-8b45-43ce-b519-ee066d04bb4f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b00273b-8b45-43ce-b519-ee066d04bb4f/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b00273b-8b45-43ce-b519-ee066d04bb4f/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14/storage_v2/_src_/schema/php_login_management.wCJyyg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbf75918-7464-4c08-89df-2d574db3ed14/storage_v2/_src_/schema/php_login_management_test.sZKmPg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/54d46746-38b0-4008-a82e-027c527a50cf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/54d46746-38b0-4008-a82e-027c527a50cf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d/storage_v2/_src_/schema/php_login_management.wCJyyg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aacee05-43eb-4fae-9f26-2794dad7531d/storage_v2/_src_/schema/php_login_management_test.sZKmPg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/App/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/App/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/Controller/HomeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/Controller/ProductController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/Hello.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/Middleware/AuthMiddleware.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/Middleware/Middleware.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/Home/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/app/View/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/belajar-php-mvc-master/test/RegexTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php-login-management/app/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/php-login-management/app/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php-login-management/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/php-login-management/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php-login-management/test/Repository/UserRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/php-login-management/test/Repository/UserRepositoryTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" notifyAboutMissingVendor="false" requirePlatformReqs="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/php-login-management/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -155,27 +126,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Github/pbd2-kel6-belajar-php-mvc",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Github/pbd2-kel6-belajar-php-mvc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="PHPUnit.UserRepositoryTest">
     <configuration name="DatabaseTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="ProgrammerZamanNow\Belajar\PHP\MVC\Config\DatabaseTest" file="$PROJECT_DIR$/php-login-management/test/Config/DatabaseTest.php" scope="Class" />
@@ -217,7 +188,8 @@
       <updated>1698234041704</updated>
       <workItem from="1698234044698" duration="475000" />
       <workItem from="1698234947496" duration="93000" />
-      <workItem from="1698235067404" duration="14016000" />
+      <workItem from="1698235067404" duration="14289000" />
+      <workItem from="1698312278770" duration="1012000" />
     </task>
     <servers />
   </component>
