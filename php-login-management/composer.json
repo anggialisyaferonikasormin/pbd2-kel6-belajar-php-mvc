@@ -8,14 +8,14 @@
             "email": "echo.khannedy@gmail.com"
         }
     ],
-    "require": {
-        "php" : ">=7.4",
-      "ext-pdo": "*"
-    },
     "autoload": {
         "psr-4": {
             "ProgrammerZamanNow\\Belajar\\PHP\\MVC\\" : "app"
         }
+    },
+    "require": {
+        "php" : ">=7.4",
+      "ext-pdo": "*"
     },
     "autoload-dev": {
         "psr-4": {
