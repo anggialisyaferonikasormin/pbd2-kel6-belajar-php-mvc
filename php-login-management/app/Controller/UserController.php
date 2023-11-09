@@ -13,6 +13,7 @@ use ProgrammerZamanNow\Belajar\PHP\MVC\service\UserService;
 class UserController
 {
     private UserService $userService;
+    private SessionService $userService;
 
     public function __construct()
     {
@@ -20,6 +21,8 @@ class UserController
         $userRepository = new UserRepository($connection);
         $this->userService = new UserService($userRepository);
 
+        $sessionRepository = new SessionRepository($connection);
+        $this->sessionService = new SessionService($sessionRepository, $userRepository);
     }
 
 
@@ -64,7 +67,8 @@ class UserController
         $request->password = $_POST['password'];
 
         try {
-            $this->userService->login($request);
+            $response = $this->userService->login($request);
+            $this->sessionService->create($response->user->id);
             View::redirect('/');
         }catch (ValidationExeption $exeption){
             View::render('User/login', [
@@ -72,5 +76,10 @@ class UserController
                 'error' => $exeption->getMessage()
             ]);
         }
+    }
+
+    public function logout(){
+        $this->sessionService->destroy();
+        View::redirect("/");
     }
 }

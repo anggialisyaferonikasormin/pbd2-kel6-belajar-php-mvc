@@ -6,11 +6,17 @@ namespace ProgrammerZamanNow\Belajar\PHP\MVC\App {
     }
 }
 
+namespace ProgrammerZamanNow\Belajar\PHP\MVC\App {
+    function setcookie(string $name, string $value) {
+        echo "$name: $value";
+    }
+}    
 namespace ProgrammerZamanNow\Belajar\PHP\MVC\Controller {
 
     use PHPUnit\Framework\TestCase;
     use ProgrammerZamanNow\Belajar\PHP\MVC\Config\Database;
     use ProgrammerZamanNow\Belajar\PHP\MVC\Domain\User;
+    use ProgrammerZamanNow\Belajar\PHP\MVC\Repository\UserRepository;
     use ProgrammerZamanNow\Belajar\PHP\MVC\Repository\UserRepository;
 
     class UserControllerTest extends TestCase
@@ -21,6 +27,10 @@ namespace ProgrammerZamanNow\Belajar\PHP\MVC\Controller {
         protected function setUp(): void
         {
             $this->userController = new UserController();
+
+            $this->sessionRepository = new SessionRepository(Database::getConnection());
+            $this->sessionRepository->deleteAll();
+
             $this->userRepository = new UserRepository(Database::getConnection());
             $this->userRepository->deleteAll();
 
@@ -118,6 +128,7 @@ namespace ProgrammerZamanNow\Belajar\PHP\MVC\Controller {
             $this->userController->postlogin();
 
             $this->expectOutputRegex("[Location: /]");
+            $this->expectOutputRegex("[X-PZN-SESSION: ]");
 
         }
 
@@ -169,6 +180,25 @@ namespace ProgrammerZamanNow\Belajar\PHP\MVC\Controller {
 
         }
 
+        public function testLogout()
+        {
+            $user = new User();
+            $user->id = "eko";
+            $user->name = "Eko";
+            $user->password = password_hash("rahasia", PASSWORD_BCRYPT);
+            $this->userRepository->save($user);
 
+            $session = new Session();
+            $session->id = uniqid();
+            $session->userId = $user->id;
+            $this->sessionRepository->save($session);
+
+            $_COOKIE[SessionService::$COOKIE_NAME] = $session->id;
+            
+            $this->userController->Logout();
+
+            $this->expectOutputRegex("[Location: /]");
+            $this->expectOutputRegex("[X-PZN-SESSION: ]");
+        }
     }
 }

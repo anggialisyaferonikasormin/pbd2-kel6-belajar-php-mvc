@@ -92,4 +92,8 @@ class UserService
             throw new ValidationExeption("Id,Password can not blank");
         }
     }
+
+    private function updateProfile(){
+        
+    }
 }
